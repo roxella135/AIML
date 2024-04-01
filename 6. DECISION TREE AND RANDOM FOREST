@@ -42,3 +42,7 @@ plt.show()
 # calculate and print the accuracy of decision tree and random forest
 print("Accuracy of decision tree: {:.2f}".format(tree.score(X_test, y_test)))
 print("Accuracy of random forest: {:.2f}".format(rf.score(X_test, y_test)))
+
+OUTPUT:
+Accuracy of decision tree: 0.75
+Accuracy of random forest: 0.82
