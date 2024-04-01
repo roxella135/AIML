@@ -35,3 +35,12 @@ plt.xlabel('Waist (cm)')
 plt.ylabel('Weight (kg)')
 plt.title('Linear Regression Model')
 plt.show()
+
+OUTPUT:
+Predicted weight for new waist value: 75
+Mean Squared Error: 0.0
+R-squared: 1.0
+
+# Draw Graph
+
+
