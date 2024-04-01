@@ -39,3 +39,6 @@ start = 'A'
 goal = 'E'
 result = astar(start, goal, graph)
 print(result)
+
+OUTPUT:
+['A', 'B', 'C', 'E']
