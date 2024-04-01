@@ -40,3 +40,6 @@ goal = 'D'
 max_nodes = 10
 result = astar(start, goal, graph, max_nodes)
 print(result)
+
+OUTPUT:
+['A','B','C','D']
