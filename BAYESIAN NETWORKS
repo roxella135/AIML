@@ -52,3 +52,11 @@ beliefs)))
 beliefs = network.predict_proba({'guest': 'A', 'prize': 'B'})
 print("\n".join("{}\t{}".format(state.name, str(belief)) for state, belief in zip(network.states,
 beliefs)))
+
+OUTPUT:
+Probability of winning if guest sticks with door
+A: 0.3333333333333333
+Probability of winning if guest switches with door
+B: 0.6666666666666666
+Probability of winning if guest switches with door
+C: 0.6666666666666666
