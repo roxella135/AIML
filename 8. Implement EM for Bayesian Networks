@@ -76,3 +76,16 @@ probabilities = em_algorithm(nodes, parents, probabilities, data)
 # Print the final parameter estimates
 for node in nodes:
 print(node, probabilities[node])
+
+OUTPUT:
+A [0.9999 0.0001]
+В [[0.3147 0.6853]
+  [0.0008 0.0002]]
+C [[0.2559 0.7441]
+  [0.7663 0.2637]]
+D [[0.1815 0.8185]
+  [0.6913 0.3087]]
+  [[0.7053 0.224]
+  [0.8396 0.1604]]
+
+
